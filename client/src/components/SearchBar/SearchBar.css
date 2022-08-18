@@ -1,0 +1,81 @@
+*{
+    font-family: 'Century Gothic', 'Inconsolata', monospace;
+    /* background-image: url(./assets/bg2.jpg); */
+    /* background: black; */
+}
+
+label{
+    display: block;
+}
+
+input {
+    display: block;
+    padding: 20px;
+    margin: 15px 5px;
+    width: 30vw;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: rgba(23, 16, 16, 0.3);
+    color: #6b6e6e;
+    font-weight: bolder;
+}
+
+button{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 20%;
+    font-weight: bolder;
+}
+
+.results {
+    font-size: 25px;
+}
+
+.saveButton {
+    z-index: 9999;
+    position: fixed; bottom: 0; right: 0;
+    width: 20%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.bar {
+    background-color: gray;
+    height: 25px;
+    width: 75%;
+    border-radius: 15px;
+    margin: 15px;
+    position: relative;
+  }
+  
+  .bar-inner {
+    background-color: rgb(4, 86, 4);
+    width: 30%;
+    height: 100%;
+    border-radius: 15px;
+  }
+
+  input[type="checkbox"] {
+      width: 50px;
+      transform: scale(2);
+  }
+
+  .displayrow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: space-evenly;
+  }
+
+  .audio{
+      width:300px;
+  }
+
+  .musicimg{
+      /* margin-left: 50%; */
+      border-radius: 10px;
+      height: 275px;
+      width: auto;
+  }
+ 
+  
